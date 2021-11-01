@@ -57,6 +57,7 @@ a {
 .flex-item-2 {
     height: 70%;
     margin: 2rem;
+    max-width: 100%;
 }
 
 .main {
@@ -72,6 +73,7 @@ a {
     background-color: #B0BABF;
     width: 90%;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .flex-item-3 {
@@ -145,4 +147,5 @@ a {
 .schedule img {
    width: 35%;
    height: auto;
+   max-width: 100%;
 }
