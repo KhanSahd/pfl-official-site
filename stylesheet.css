@@ -174,3 +174,16 @@ a {
         height: auto;
     }
 }
+
+@media (orientation: landscape) {
+    .schedule {
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .schedule img {
+        width: 30%;
+        height: auto;
+    }
+}
