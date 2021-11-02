@@ -179,7 +179,7 @@ a {
     .schedule {
         flex-direction: row;
         justify-content: center;
-        justify-content: space-around;
+        flex-wrap: nowrap;
     }
 
     .schedule img {
