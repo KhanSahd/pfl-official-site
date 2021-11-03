@@ -88,7 +88,7 @@ a {
 
 .flex-item-3 {
     width: 30%;
-    height: auto;
+    height: 33.1111rem;
     padding: 5%;
     color: white;
 }
@@ -172,6 +172,11 @@ a {
     .schedule img {
         width: 80%;
         height: auto;
+    }
+
+    .about-us {
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
