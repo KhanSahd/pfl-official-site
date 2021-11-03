@@ -88,7 +88,7 @@ a {
 
 .flex-item-3 {
     width: 30%;
-    height: 33.1111rem;
+    height: auto;
     padding: 5%;
     color: white;
 }
@@ -174,9 +174,49 @@ a {
         height: auto;
     }
 
+    .flex-container {
+        align-items: baseline;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
     .about-us {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .flex-item-3 {
+        width: 60%;
+    }
+
+    .about-us img {
+        margin-bottom: 10%;
+    }
+
+    .flex-container-2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .flex-item-2 {
+        width: 85%;
+        height: auto;
+        margin: 1rem;
+        flex: 1;
+    }
+
+    .footer {
+        padding: 5%;
+    }
+
+    .contact-links div {
+        flex-direction: column;
+        margin-bottom: 1rem;
     }
 }
 
