@@ -174,15 +174,15 @@ a {
         height: auto;
     }
 
-    .flex-container {
-        align-items: baseline;
+    .header {
+        overflow: hidden;
+        text-align: center;
     }
 
-    .navbar {
+    .flex-container {
         flex-direction: column;
-        text-align: center;
-        font-size: 1.2rem;
-        line-height: 2rem;
+        justify-content: center;
+        justify-items: center;
     }
 
     .about-us {
