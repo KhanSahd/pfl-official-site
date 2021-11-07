@@ -9,7 +9,7 @@ html {
 
 body, a {
     font-family: 'Roboto';
-    color: #ff0000;
+    color: black;
 }
 
 .header {
@@ -22,6 +22,7 @@ body, a {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid rgb(32, 32, 32) 1px;
+    background-color: #ff0000;
 }
 
 .logo-text {
@@ -72,17 +73,20 @@ a {
 }
 
 .main {
-    background-color: #F2F4F3;
+    background-color: #ff0000;
+    padding: 1rem;
 }
 
+.main p {
+    text-align: center;
+}
 
 .about-us {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #B0BABF;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -106,7 +110,7 @@ a {
 
 .footer {
     background-color: #F2F4F3;
-    padding: 2%;
+    padding: 1%;
 }
 
 .footer p {
@@ -116,7 +120,7 @@ a {
 
 .contact-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 2rem;
     flex-wrap: wrap
 }
@@ -171,7 +175,7 @@ a {
     }
 
     .schedule img {
-        width: 80%;
+        width: 100%;
         height: auto;
     }
 
@@ -217,11 +221,17 @@ a {
     }
 
     .footer {
-        padding: 5%;
+        padding: 2%;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-content: center;
     }
 
     .contact-links div {
-        flex-direction: column;
         margin-bottom: 1rem;
     }
 }
