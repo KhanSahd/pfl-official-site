@@ -21,7 +21,7 @@ body, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    border-bottom: solid rgb(32, 32, 32) 1px;
 }
 
 .logo-text {
@@ -33,6 +33,7 @@ body, a {
 
 .flex-item {
     padding: 2rem;
+    
 }
 
 .navbar {
@@ -41,7 +42,7 @@ body, a {
 
 .navbar li {
     display: inline;
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 
 a {
@@ -163,7 +164,7 @@ a {
    height: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .schedule {
         flex-direction: column;
         justify-content: center;
@@ -183,6 +184,11 @@ a {
         flex-direction: column;
         justify-content: center;
         justify-items: center;
+        align-items: center;
+    }
+
+    .flex-container p {
+        display: inline;
     }
 
     .about-us {
