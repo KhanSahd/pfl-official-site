@@ -55,6 +55,8 @@ a {
 .hero {
     padding: 2rem 5rem;
     overflow: hidden;
+    background-image: url(./images/sf\ city.jpg);
+    background-size: cover;
 }
 
 .flex-container-2 {
@@ -62,14 +64,14 @@ a {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap;
+    
 }
 
 .flex-item-2 {
-    width: 40%;
+    width: 60%;
     height: auto;
     margin: 1rem;
-    flex: 1;
+    
 }
 
 .main {
@@ -148,7 +150,7 @@ a {
 }
 
 .schedule-back {
-    background-image: url(./images/pexels-harrison-candlin-2441454.jpg);
+    background-image: url(./images/sf\ city.jpg);
     background-size: cover;
 }
 
@@ -160,18 +162,20 @@ a {
 
 .schedule h1 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .schedule img {
    width: 30%;
    height: auto;
+   padding: 5%;
 }
 
 @media (max-width: 700px) {
     .schedule {
         flex-direction: column;
         justify-content: center;
+        padding: 5%;
     }
 
     .schedule img {
