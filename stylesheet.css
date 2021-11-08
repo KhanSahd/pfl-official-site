@@ -9,7 +9,7 @@ html {
 
 body, a {
     font-family: 'Roboto';
-    color: black;
+    color: white;
 }
 
 .header {
@@ -37,13 +37,8 @@ body, a {
     
 }
 
-.navbar {
-    list-style: none;
-}
-
-.navbar li {
-    display: inline;
-    margin-right: 1rem;
+.navi {
+    display: flex;
 }
 
 a {
@@ -81,6 +76,12 @@ a {
 
 .main p {
     text-align: center;
+    
+}
+
+.para p {
+    text-align: start;
+    text-transform: uppercase;
 }
 
 .about-us {
@@ -171,7 +172,7 @@ a {
    padding: 5%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .schedule {
         flex-direction: column;
         justify-content: center;
