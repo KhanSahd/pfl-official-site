@@ -244,7 +244,7 @@ a {
     box-shadow: #8a8d8f;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .schedule {
         flex-direction: column;
         justify-content: center;
@@ -273,7 +273,7 @@ a {
     }
 
     .navi {
-        justify-content: center;
+        font-size: .8rem;
     }
 
     .about-us {
