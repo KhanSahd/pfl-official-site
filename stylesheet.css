@@ -24,7 +24,7 @@ body, a {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid rgb(32, 32, 32) 1px;
-    background-color: #4b92db;
+    background-color: #DF2935;
 }
 
 .logo-text {
@@ -63,7 +63,7 @@ a {
 
 .navi a:hover {
     background-color: white;
-    color: #4b92db;
+    color: #DF2935;
 }
 
 .hero {
@@ -90,18 +90,22 @@ a {
 }
 
 .main {
-    background-color: #8a8d8f;
+    background-color: #E0E1E9;
     padding: 1rem;
+    color: #DF2935;
 }
 
 .main p {
     text-align: center;
-    
+    color: #DF2935;
+}
+
+.main a {
+    color: #DF2935;
 }
 
 .para p {
     text-align: center;
-    text-transform: uppercase;
     line-height: 1.7rem;
     font-size: 1.3rem;
 }
@@ -139,7 +143,14 @@ a {
 }
 
 .content h2 {
-    color: orange;
+    color: #DF2935;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Zen Dots', cursive;
+}
+
+.content h3 {
+    font-size: 1.5rem;
 }
 
 .champs {
@@ -148,9 +159,19 @@ a {
 }
 
 .champs img {
-    width: 70%;
+    width: 60%;
     margin: 1rem;
     margin-bottom: 3rem;
+}
+
+.highlights {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.highlights video {
+    width: 33%;
 }
 
 .footer {
@@ -162,6 +183,9 @@ a {
     text-align: center;
 }
 
+.contact-info {
+    margin-top: 4rem;
+}
 
 .contact-links {
     display: flex;
