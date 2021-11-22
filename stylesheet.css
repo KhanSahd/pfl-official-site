@@ -272,6 +272,10 @@ a {
         display: inline;
     }
 
+    .navi {
+        padding: 0 2rem;
+    }
+
     .about-us {
         flex-direction: column;
         justify-content: center;
