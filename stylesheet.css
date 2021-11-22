@@ -12,6 +12,8 @@ body, a {
     color: white;
 }
 
+
+
 .header {
     background-color: #F2F4F3;
 }
@@ -32,6 +34,11 @@ body, a {
     font-family: 'Electrolize';
 }
 
+.logo-text a {
+    font-family: 'Zen Dots', cursive;
+    border: none;
+}
+
 .flex-item {
     padding: 2rem;
     
@@ -45,6 +52,18 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
+}
+
+.navi a {
+    border: 1px solid white;
+    padding: .4rem;
+    border-radius: 50px;
+    
+}
+
+.navi a:hover {
+    background-color: white;
+    color: #4b92db;
 }
 
 .hero {
@@ -87,9 +106,6 @@ a {
     font-size: 1.3rem;
 }
 
-.title-para {
-    color: red;
-}
 
 .about-us {
     display: flex;
@@ -118,8 +134,27 @@ a {
     margin-bottom: 1rem;
 }
 
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    color: orange;
+}
+
+.champs {
+    display: flex;
+    justify-content: center;
+}
+
+.champs img {
+    width: 70%;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
 .footer {
-    background-color: #4b92db;
+    background-color: white;
     padding: 1%;
 }
 
