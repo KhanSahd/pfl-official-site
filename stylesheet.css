@@ -22,7 +22,7 @@ body, a {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid rgb(32, 32, 32) 1px;
-    background-color: #ff0000;
+    background-color: #4b92db;
 }
 
 .logo-text {
@@ -52,6 +52,7 @@ a {
     overflow: hidden;
     background-image: url(./images/sf\ city.jpg);
     background-size: cover;
+    border-bottom: 1px solid black;
 }
 
 .flex-container-2 {
@@ -63,14 +64,14 @@ a {
 }
 
 .flex-item-2 {
-    width: 60%;
+    width: 50%;
     height: auto;
     margin: 1rem;
     
 }
 
 .main {
-    background-color: #ff0000;
+    background-color: #8a8d8f;
     padding: 1rem;
 }
 
