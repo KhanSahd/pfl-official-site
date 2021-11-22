@@ -244,6 +244,19 @@ a {
     box-shadow: #8a8d8f;
 }
 
+/* video page */
+.gallery {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 5px;
+    margin: 1%;
+}
+
+.gallery video {
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 900px) {
     .schedule {
         flex-direction: column;
