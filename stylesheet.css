@@ -172,6 +172,8 @@ a {
 
 .highlights video {
     width: 33%;
+    border: 5px solid white;
+    border-bottom: 20px solid white;
 }
 
 .footer {
