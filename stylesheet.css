@@ -66,6 +66,10 @@ a {
     color: #DF2935;
 }
 
+#hamburger {
+    display: none;
+}
+
 .hero {
     padding: 2rem 5rem;
     overflow: hidden;
@@ -288,8 +292,15 @@ a {
         display: inline;
     }
 
+    #hamburger {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
     .navi {
         font-size: .8rem;
+        display: none;
+        
     }
 
     .about-us {
