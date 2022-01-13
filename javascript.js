@@ -12,3 +12,15 @@ function showList(){
 
 
 button.addEventListener('click', showList);
+
+let video = document.getElementById('frontVid');
+let logo = document.getElementById('logo');
+
+function showLogo(){
+    video.style.display = 'none';
+    logo.style.display = 'flex';
+    video.style.transition = 'all 2s ease-in';
+    logo.style.transition = 'all 2s ease-in';
+}
+
+video.addEventListener('ended', showLogo);

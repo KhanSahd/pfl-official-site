@@ -15,7 +15,9 @@ body, a {
 
 
 .header {
-    background-color: #F2F4F3;
+   /* background-image: url('./images/clouds-photo-3783385.jpg'); */
+    background-color: #5e6472;
+    background-size: cover;
 }
 
 
@@ -24,7 +26,7 @@ body, a {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid rgb(32, 32, 32) 1px;
-    background-color: #DF2935;
+    background-image: url('./images/gradient.jpg');
 }
 
 .logo-text {
@@ -62,8 +64,9 @@ a {
 }
 
 .navi a:hover {
-    background-color: white;
-    color: #DF2935;
+    background-color: #a71e34;
+    color: white;
+    transition: all 600ms ease-in;
 }
 
 #hamburger {
@@ -71,11 +74,17 @@ a {
 }
 
 .hero {
-    padding: 2rem 5rem;
+    /*padding: 2rem 5rem;
     overflow: hidden;
     background-image: url(./images/sf\ city.jpg);
-    background-size: cover;
-    border-bottom: 1px solid black;
+    background-size: cover; */
+    border-bottom: 1px solid black; 
+    
+}
+
+.hero video {
+   width: 100%;
+   
 }
 
 .flex-container-2 {
@@ -83,7 +92,10 @@ a {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    
+}
+
+#logo {
+    display: none;
 }
 
 .flex-item-2 {
@@ -94,14 +106,14 @@ a {
 }
 
 .main {
-    background-color: #E0E1E9;
+    background-image: url('./images/gradient.jpg');
     padding: 1rem;
-    color: #DF2935;
+    color: white;
 }
 
 .main p {
     text-align: center;
-    color: #DF2935;
+    color: white;
 }
 
 .main a {
